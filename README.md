@@ -20,7 +20,7 @@ This study examines and compares the following feature selection algorithms:
 ## 🧪 Experimentation
 
 - **Datasets:** The algorithms were evaluated on multiple high-dimensional datasets
-- ![Screenshot from 2025-05-06 20-14-12](https://github.com/user-attachments/assets/f6de2088-598c-4a25-97fb-5ced5f9df7e8)
+  ![Screenshot from 2025-05-06 20-14-12](https://github.com/user-attachments/assets/f6de2088-598c-4a25-97fb-5ced5f9df7e8)
 - **Metrics:**
   - Classification Accuracy
   - Number of Selected Features
@@ -40,8 +40,8 @@ This study examines and compares the following feature selection algorithms:
 
 ```
 .
-├── datasets/                 # .mat or .svm formatted high-dimensional datasets
-├── algorithms/               # Implementation of all optimization algorithms
+├── Datasets/                 # .mat or .svm formatted high-dimensional datasets
+├── Code/               # Implementation of all optimization algorithms
 │   ├── hmofa/
 │   ├── emswoa/
 │   ├── appsso/
@@ -50,11 +50,6 @@ This study examines and compares the following feature selection algorithms:
 │   ├── ia_flfs/
 │   ├── stccea/
 │   └── psocsm/
-├── results/
-│   ├── accuracy_comparison.csv
-│   ├── feature_counts.csv
-│   └── time_analysis.csv
-├── plots/                    # Graphs and visualizations
 └── README.md
 ```
 
@@ -71,15 +66,3 @@ This study examines and compares the following feature selection algorithms:
 - Benchmark on real-time streaming datasets.
 - Integrate results with autoML pipelines.
 
-## 📄 Citation
-
-If you find this work useful, consider citing the relevant papers and this repository.
-
-```bibtex
-@misc{yourgithubrepo2025,
-  author = {Matrix Leo},
-  title = {Comparative Study of Optimization Algorithms for High-Dimensional Feature Selection},
-  year = {2025},
-  url = {https://github.com/yourusername/feature-selection-optimization-study}
-}
-```
